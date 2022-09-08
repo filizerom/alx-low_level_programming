@@ -3,6 +3,7 @@
 /**
  * main initial point
  *
+ *Description initial short description
  * Return: 0
  */
 int main(void)
