@@ -3,6 +3,7 @@
 /**
  * main  initial
  *
+ *description with puts
  * Return: 0
  */
 int main(void)
