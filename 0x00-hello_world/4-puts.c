@@ -1,10 +1,11 @@
 #include <stdio.h>
 
 /**
-*int main 
-*use puts
-* Return: 0
-*/
+ * main for initial
+ *
+ *use puts
+ * Return: 0
+ */
 
 int main(void)
 {
