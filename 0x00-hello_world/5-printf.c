@@ -1,9 +1,10 @@
 #include <stdio.h>
 
 /**
- * main initial point
+ * main - initial point
  *
- *Description initial short description
+ *Description: initial short description that main 
+ *function helps us to print 
  * Return: 0
  */
 int main(void)
