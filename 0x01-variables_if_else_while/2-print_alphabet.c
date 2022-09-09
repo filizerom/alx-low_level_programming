@@ -3,18 +3,18 @@
 #include <time.h>
 
 /**
- * main -
+ * main - print 
+ *use main function and 
  *
- * Return: 0
+ * Return: Always 0 (Success)
  */
 
 int main(void)
 {
-	char low;
+char ch;
+for (ch = 'a'; ch <= 'z'; ch++)
+	putchar(ch);
+putchar('\n');
 
-	for (low = 'a'; low <= 'z'; low++)
-		putchar(low);
-		putchar('\n');
-
-	return (0);
+return (0);
 }
