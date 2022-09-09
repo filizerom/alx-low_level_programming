@@ -1,13 +1,13 @@
+#include <stdio.h>
 #include <stdlib.h>
-#include <time.h>
 #include <time.h>
 
 /**
-* main - greater than 5, zero, less than 6 and not 0
-*
-* use function and rand
-*return: 0
-*/
+ * main - is greater than 5
+ *
+ * use main function and rand
+ * Return: 0
+ */
 
 int main(void)
 {
