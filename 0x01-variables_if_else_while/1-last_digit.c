@@ -1,11 +1,14 @@
 #include <stdlib.h>
 #include <time.h>
+#include <time.h>
+
 /**
 * main - greater than 5, zero, less than 6 and not 0
 *
 * use function and rand
 *return: 0
 */
+
 int main(void)
 {
 	int n;
@@ -21,3 +24,4 @@ int main(void)
 		printf("Last digit of %d is %d and is less than 6 and not 0\n", n, n % 10);
 
 	return (0);
+}
