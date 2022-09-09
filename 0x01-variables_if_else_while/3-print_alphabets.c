@@ -3,20 +3,21 @@
 #include <time.h>
 
 /**
- * main -print from a to z
+ * main - Prints the alphabet in lower and uppercase.
  *
- * Return: 0
+ * Return: 0.
  */
-
 int main(void)
 {
-	char ch;
+	char alph;
 
-for (ch = 'a'; ch <= 'z'; ch++)
-	putchar(ch);
-for (ch = 'A'; ch <= 'Z'; ch++)
-		putchar(ch);
-putchar('\n');
+	for (alph = 'a'; alph <= 'z'; alph++)
+		putchar(alph);
 
-return (0);
+	for (alph = 'A'; alph <= 'Z'; alph++)
+		putchar(alph);
+
+	putchar('\n');
+
+	return (0);
 }
