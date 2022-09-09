@@ -1,21 +1,22 @@
 #include <stdio.h>
+#include <stdlib.h>
+#include <time.h>
 
 /**
- *main - Prints the alphabet in lower and uppercase
- *Return: 0
+ * main - write lowwer and uppercase
+ *
+ * Return: 0
  */
 
 int main(void)
 {
-char alph;
+	char alp;
 
-for (alph = 'a'; alph <= 'z'; alph++)
-	putchar(alph);
+	for (alp = 'a'; alp <= 'z'; alp++)
+		putchar(low);
+	for (alp = 'A'; alp <= 'Z'; alp++)
+		putchar(alp);
+	putchar('\n');
 
-for (alph = 'A'; alph <= 'Z'; alph++)
-	putchar(alph);
-
-putchar('\n');
-
-return (0);
+	return (0);
 }
