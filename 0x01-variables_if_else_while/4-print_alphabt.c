@@ -3,7 +3,8 @@
 #include <time.h>
 
 /**
- * main-print all except q and e
+ * main - this is the main function
+ * description - the starting point of the programe
  * Return:0
  */
 
@@ -16,8 +17,10 @@ int main(void)
 
 	for (alp = 'a'; alp <= 'z'; alp++)
 	{
-	if (alp != e && alp != q)
-	putchar(alp);
+		if (alp != e && alp != q)
+		{
+			putchar(alp);
+		}
 	}
 	putchar('\n');
 
