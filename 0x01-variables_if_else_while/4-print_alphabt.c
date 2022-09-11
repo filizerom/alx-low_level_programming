@@ -3,9 +3,8 @@
 #include <time.h>
 
 /**
- * main - print all except q and e
- *
- * Return: 0
+ * main-print all except q and e
+ * Return:0
  */
 
 int main(void)
@@ -18,7 +17,7 @@ int main(void)
 	for (alp = 'a'; alp <= 'z'; alp++)
 	{
 		if (alp != e && alp != q)
-			putchar(alp);
+		putchar(alp);
 	}
 	putchar('\n');
 
