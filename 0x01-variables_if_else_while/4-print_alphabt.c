@@ -1,3 +1,7 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include <time.h>
+
 /**
  * main - print all the lettters except e and q
  * Description: with main function
