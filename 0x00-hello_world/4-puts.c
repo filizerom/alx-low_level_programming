@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 /**
- * main  write a c programe to print the following.
+ * main - write a c programe to print the following initial short description
  *
  *description: use main function.
  * Return: 0
