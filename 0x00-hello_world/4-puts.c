@@ -1,9 +1,9 @@
 #include <stdio.h>
 
 /**
- * main  initial
+ * main  write a c programe to print the following.
  *
- *description with puts
+ *description: use main function.
  * Return: 0
  */
 int main(void)
