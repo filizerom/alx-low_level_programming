@@ -2,7 +2,7 @@
 #include <unistd.h>
 /**
  * main - program that prints exactly below
- * Description: use main function anf for it 
+ * Description: use main function anf for it
  * return 1
  */
 
