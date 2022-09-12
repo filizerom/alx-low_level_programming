@@ -20,3 +20,4 @@ for (alp = 'A'; alp <= 'Z'; alp++)
 }
 putchar('\n');
 return (0);
+}
