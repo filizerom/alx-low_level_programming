@@ -1,3 +1,7 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include <time.h>
+
 /**
  * main - print upper and lower case
  * Description: use main function
@@ -8,7 +12,7 @@ int main(void)
 char alp;
 for (alp = 'a'; alp <= 'z'; alp++)
 {
-putchar(alp);
+	putchar(alp);
 }
 for (alp = 'A'; alp <= 'Z'; alp++)
 {
