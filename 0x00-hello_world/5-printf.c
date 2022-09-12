@@ -3,8 +3,8 @@
 /**
  * main - initial point
  *
- * Description: initial short description that main 
- * function helps us to print 
+ * Description: initial short description that main
+ * function helps us to print
  * Return: 0
  */
 int main(void)
