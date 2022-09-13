@@ -1,11 +1,15 @@
 #include "main.h"
 /**
  * _abs -  absolute value of an integer
- * @n - character
+ * @n: int for arguement
  * Return: n
  */
 int _abs(int n)
 {
-	if (n < 0)
-	n = -n;
-	return (n);
+	if (n > 0 || n == 0) 
+	{
+		return (n);
+	}
+	else 
+	return (c * -1);
+}
