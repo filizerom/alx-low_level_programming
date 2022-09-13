@@ -2,7 +2,8 @@
 
 /**
  * main - print putchar
- * return 0
+ * Description: use main function.
+ * Return: 0
  */
 int main(void)
 {
