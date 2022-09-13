@@ -1,1 +1,1 @@
-hello world
+use putchar
