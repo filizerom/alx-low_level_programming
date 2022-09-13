@@ -3,8 +3,8 @@
 /**
  * main - prints 10 times the alphabet
  *
- * Description: use void print_alphabet_x10(void) function
- 
+ * Description: use function void print_alphabet_x10(void);
+ *
  * return: 0
  */
 
