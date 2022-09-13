@@ -3,8 +3,7 @@
 /**
  * prints 10 times the alphabet
  *
- * function print_alphabet_x10 as a header in main.h
- *
+ * print_alphabet_x10 - print the lowercase alphabets.
  * return: 0
  */
 
