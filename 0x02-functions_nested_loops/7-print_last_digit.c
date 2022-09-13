@@ -1,7 +1,8 @@
 #include "main.h"
 /**
- * int print_last_digit
+ * print_last_digit - last n
  * @n: n for arguement
+ * int - use n
  * Return: n
  */
 int print_last_digit(int)
