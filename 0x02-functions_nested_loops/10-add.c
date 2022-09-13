@@ -3,9 +3,9 @@
  * add - Adds two integers.
  * @num1: an integer
  * @num2: an integer
- * return: r
+ * return: result of two integer
  */
 int add(int num1, int num2)
 {
-	return ( num1 + num2);
+	return (num1 + num2);
 }
