@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 /**
- * main -  a C program that prints the sizeof.
+ * main - a C program that prints the sizeof.
  *descriptiion: use main function
  *return (0)
  */
