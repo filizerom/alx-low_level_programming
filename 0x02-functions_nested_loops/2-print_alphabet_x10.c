@@ -1,9 +1,9 @@
 #include "main.h"
 
 /**
- * main - prints 10 times the alphabet
+ * prints 10 times the alphabet
  *
- * Description: use function void print_alphabet_x10(void);
+ * function print_alphabet_x10 as a header in main.h
  *
  * return: 0
  */
