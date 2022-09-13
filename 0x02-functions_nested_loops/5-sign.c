@@ -1,7 +1,7 @@
 #include "main.h"
 /**
- *print_sign - sign of a numbe
- * @c: int for the arguement of the function.
+ * print_sign - for character
+ * @n: int for the arguement of the function.
  * Return: 0
  */
 int print_sign(int n)
