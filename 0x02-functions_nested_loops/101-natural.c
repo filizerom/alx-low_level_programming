@@ -20,6 +20,6 @@ int main(void)
 			sum2 += i;
 		}
 	}
-	printf("%d\n", sum1 + sum2 - 35190);
+	printf("%d\n", sum1 + sum2 - sum3);
 	return (0);
 }
