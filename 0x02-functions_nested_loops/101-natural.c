@@ -1,9 +1,9 @@
 #include <stdio.h>
 /**
  * main - print the sum of all multiple 3 and 5
- * 
+ *
  * Description: use main functioh
- * Return 0
+ * Return: zero(0)
  */
 int main(void)
 {
