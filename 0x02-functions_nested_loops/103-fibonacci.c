@@ -15,7 +15,7 @@ int main(void)
 			b += a;
 
 		i = a;
-		a + = n;
+		a += n;
 		n = i;
 	}
 	printf("%d\n", b);
