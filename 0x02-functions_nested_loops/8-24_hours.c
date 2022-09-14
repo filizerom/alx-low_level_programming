@@ -1,4 +1,4 @@
-include "main.h"
+#include "main.h"
 	
 /**
  * jack_bauer - prints every minutes
@@ -7,8 +7,8 @@ include "main.h"
 	
 void jack_bauer(void)
 {
-	int hr = 0;
-	int min =0;
+	int hr;
+	int min;
 	int hrs_rmnder;
 	int min_rmnder;
 
