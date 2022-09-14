@@ -5,7 +5,7 @@
  */
 int main(void)
 {
-	int sum1 = 0, int sum2 = 0;
+	int sum1 = 0, sum2 = 0;
 	int i;
 
 	for (i = 0; i < 100; i++)
@@ -17,8 +17,9 @@ int main(void)
 		}
 		if (i % 5 == 0)
 		{
-			sum += i;
+			sum1 += i;
 		}
 	}
 	printf("%d\n", sum1 + sum2);
 	return (0);
+}
