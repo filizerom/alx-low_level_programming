@@ -5,25 +5,25 @@
  */
 void times_table(void)
 {
-	int n, o, r;
+	int x, y, z;
 
-	for (n = 0; n <= 9; n++)
+	for (x = 0; x <= 9; x++)
 	{
 		_putchar('0');
 
-		for (o = 1; o <= 9; o++)
+		for (y = 1; y <= 9; y++)
 		{
 			_putchar(',');
 			_putchar(' ');
 
-			r = n + o;
+			z = x + y;
 
-			if (r <= 9)
+			if (z <= 9)
 				_putchar(' ');
 			else
-				_putchar((r / 10) + '0');
+				_putchar((z / 10) + '0');
 
-			_putchar((r % 10) + '0');
+			_putchar((z % 10) + '0');
 		}
 		_putchar('\n');
 	}
