@@ -35,5 +35,7 @@ void print_times_table(int n)
 
 	}
 	else
-		return (0)
+	{
+		return (0);
+	}
 }
