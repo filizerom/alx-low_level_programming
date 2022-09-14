@@ -12,9 +12,9 @@ int main(void)
 	while (a < 4000000)
 	{
 		if (a % 2 == 0)
-			b + = a;
+			b += a;
 
-		i = a
+		i = a;
 		a + = n;
 		n = i;
 	}
