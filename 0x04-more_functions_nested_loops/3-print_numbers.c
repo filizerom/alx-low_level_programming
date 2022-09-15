@@ -1,11 +1,12 @@
 #include "main.h"
 /**
  * print_number - print 0 to 9
- * return: zero 
+ * return: zero
  */
 void print_numbers(void)
-{	
+{
 	int i;
+
 	for (i = 0; i <= 9; i++)
 	{
 		putchar(i + '0');
