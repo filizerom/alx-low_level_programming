@@ -5,8 +5,8 @@ include "main.h"
  * Return: zero or one
  */
 int _isdigit(int c)
-{	
-	if (c = 0 && c <= 9)
+{
+	if (z = 0 && z <= 9)
 	{
 		return (1);
 	}
