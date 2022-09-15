@@ -10,11 +10,11 @@ if (size > 0)
 {
 for (a = 1; a <= size; a++)
 {
-for (index = size - hash; index > 0; index--)
+for (b = size - a; b > 0; b--)
 	_putchar(' ');
-for (index = 0; index < hash; index++)
+for (b = 0; b < a; b++)
 	_putchar('#');
-if (hash == size)
+if (a == size)
 	continue;
 _putchar('\n');
 }
