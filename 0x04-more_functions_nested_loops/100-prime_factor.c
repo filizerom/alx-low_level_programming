@@ -9,7 +9,7 @@ int main(void)
   int i;
   while (i++ < num / 2)
   {
-    if (num % i == 0)
+    if (num % 2 == 0)
     {
       num /= 2;
       continue;
