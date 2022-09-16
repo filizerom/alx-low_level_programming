@@ -19,9 +19,13 @@ char *leet(char *c)
 		while (j < k)
 		{
 			if (c[i] == a[j] || c[i] - 32 == a[j])
+			{
 				c[i] = b[j];
+			}
+
 			j++;
 		}
+
 		i++;
 	}
 	return (c);
