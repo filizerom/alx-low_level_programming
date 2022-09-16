@@ -1,7 +1,7 @@
 #include <stdio.h>
 /**
- * main - find the largest number
- * return: zero(0)
+ * main - find the largest prime number
+ * Return: zero(0)
  */
 int main(void)
 {
