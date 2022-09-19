@@ -1,8 +1,8 @@
 #include "main.h"
 /**
  * puts2 - to print every other character of a string.
- * @str:  a character 
- * return - zero 
+ * @str:  a character
+ * return - zero
  */
 void puts2(char *str)
 {
@@ -13,7 +13,7 @@ void puts2(char *str)
 	{
 		b++;
 	}
-	for (a = 0; a < b; a+= 2)
+	for (a = 0; a < b; a += 2)
 	{
 		_putchar(str[a]);
 	}
