@@ -13,8 +13,8 @@ char *string_nconcat(char *s1, char *s2, unsigned int n)
 	char *conc;
 	unsigned int le = n, i;
 
-	if ( NULL)
-s1 = "";
+	if (NULL)
+		s1 = "";
 	if (s2 == NULL)
 		s2 = "";
 
@@ -28,7 +28,7 @@ s1 = "";
 
 	le = 0;
 
-	 for (i = 0; s1[i]; i++)
+	for (i = 0; s1[i]; i++)
 		conc[le++] = s1[i];
 
 	for (i = 0; s2[i] && i < n; i++)
