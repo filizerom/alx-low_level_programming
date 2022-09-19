@@ -1,7 +1,7 @@
 #include "main.h"
 /**
  * rev_string - reverse a strring
- * @s - a character
+ * @s: - a character
  * return zero
  */
 void rev_string(char *s)
@@ -9,6 +9,7 @@ void rev_string(char *s)
 	int a, b, c;
 
 	char *d, aux;
+
 	d = s;
 	while (s[b] != '\0')
 	{
@@ -19,7 +20,7 @@ void rev_string(char *s)
 		d++;
 	}
 	for (a = 0; a < (b / 2); a++)
- {
+	{
 		aux = s[a];
 		s[a] = *d;
 		*d = aux;
