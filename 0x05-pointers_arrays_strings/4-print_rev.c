@@ -1,4 +1,7 @@
 #include "main.h"
+#include <stdio.h>
+#include <string.h>
+
 /**
  * print_rev - to print a string, in reverse followed by a new line.
  * @s - a character
