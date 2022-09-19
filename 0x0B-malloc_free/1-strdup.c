@@ -3,7 +3,7 @@
 
 /**
 *_strdup - returns a pointer to a newly allocated space in memory
-* @str - a character
+* @str:- a character
 * Return: NULL
 */
 char *_strdup(char *str)
@@ -13,7 +13,7 @@ char *_strdup(char *str)
 
 	if (str == NULL)
 		return (NULL);
-	while (str[i])
+	while (str[j])
 	{
 		j++;
 	}
