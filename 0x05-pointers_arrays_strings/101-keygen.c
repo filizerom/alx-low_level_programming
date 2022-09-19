@@ -34,14 +34,17 @@ int main(void)
 				break;
 			}
 		}
-	for (index = 0; passwo[index]; index++)
-	{
-		if (passwo[index] >= (33 + diff_haf2))
+		for (index = 0; passwo[index]; index++)
 		{
-			passwo[index] -= diff_haf2;
-			break;
+			if (passwo[index] >= (33 + diff_haf2))
+			{
+				passwo[index] -= diff_haf2;
+				break;
+			}
 		}
 	}
+
 	printf("%s", passwo);
+		
 	return (0);
 }
