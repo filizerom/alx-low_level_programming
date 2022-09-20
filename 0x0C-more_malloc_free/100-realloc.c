@@ -1,6 +1,6 @@
 #include "main.h"
 #include <stdlib.h>
-/
+/**
 *
 * _realloc -  function that reallocates a memory block
 * using malloc and free
@@ -8,7 +8,7 @@
 *@old_size: an integer
 *@new_size: an integer
 */
-void *_realloc(void *ptr, unsigned int old_size, unsigned int new_size);
+void *_realloc(void *ptr, unsigned int old_size, unsigned int new_size)
 {
 	void *m;
 	char *ptr_copy, *f;
