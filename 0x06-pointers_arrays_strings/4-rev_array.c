@@ -2,7 +2,7 @@
 #include <string.h>
 
 /**
-* reverse_array
+* reverse_array - function that changes all lowercase.
 * @a: a character
 * @n: an integer
 * return: zero
@@ -10,6 +10,7 @@
 void reverse_array(int *a, int n);
 {
 	int *p, b, aux, c;
+	
 	p = a;
 
 	for (a = 0; a < n; a++)
