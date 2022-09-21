@@ -6,7 +6,7 @@
 * @c: a character
 * Return: will be (c)
 */
-char *cap_string(char *c);
+char *cap_string(char *c)
 {
 	int i = 0;
 
