@@ -38,7 +38,7 @@ char *rot13(char *c)
 				break;
 			}
 		}
-		i++
+		i++;
 	}
 
 
