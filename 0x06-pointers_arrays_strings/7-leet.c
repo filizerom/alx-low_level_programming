@@ -7,25 +7,17 @@
 */
 char *leet(char *c)
 {
-	int i = 0, j = 0, k = 5;
-	char a[5] = {'A', 'E', 'O', 'T', 'L'};
-	char b[5] = {'4', '3', '0', '7', '1'};
+	int i = 0, j;
+	char a[8] = {'O', 'L', '?', 'E', 'A', '?', '?', 'T'};
 
 	while (c[i])
 	{
-		j = 0;
-	}
-
-		while (j < k)
+		for (j = 0; j <= 7; j++)
 		{
-			if (c[i] == a[j] || c[i] - 32 == a[j])
-			{
-				c[i] = b[j];
-			}
-
-			j++;
+			if (c[i] == a[j] ||
+			    c[i] - 32 == a[j])
+				c[i] = j + '0';
 		}
-
 		i++;
 	}
 	return (c);
