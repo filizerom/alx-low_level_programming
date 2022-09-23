@@ -3,11 +3,11 @@
 char *add_strings(char *n1, char *n2, char *r, int r_index);
 char *infinite_add(char *n1, char *n2, char *r, int size_r);
 /**
+* add_strings - a function to 
 * @n1: a character
 * @n2: a character
 * @r: a character
 * @r_index: an integer
-* add_strings - a function to 
 * Return: zero
 */
 char *add_strings(char *n1, char *n2, char *r, int r_index)
@@ -48,6 +48,10 @@ char *add_strings(char *n1, char *n2, char *r, int r_index)
 /**
 * infinite_add - a function that adds two numbers
 * @size_r: an integer
+* @n1: a character
+* @n2: a character
+* @r: a character
+*
 */
 char *infinite_add(char *n1, char *n2, char *r, int size_r)
 {
