@@ -1,4 +1,8 @@
 #include <stdio.h>
+/**
+* main - is a function to
+* return: zero
+*/
 
 int main(void)
 {
