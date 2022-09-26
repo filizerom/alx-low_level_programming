@@ -5,7 +5,7 @@
 * _strpbrk -  a function that searches a string for any of a set of bytes
 *@s: a character
 *@accept: a character
-* return - NULL
+* Return: NULL
 */
 char *_strpbrk(char *s, char *accept)
 {
