@@ -9,8 +9,9 @@
 */
 unsigned int _strspn(char *s, char *accept)
 {
-	unsigned int byte;
+	unsigned int byte = 0;
 	int i;
+
 	while (*s)
 	{
 		for (i = 0; accept[i]; i++)
