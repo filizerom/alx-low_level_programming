@@ -5,7 +5,7 @@
 * @n: unsigned integer
 * @s: a character
 * @b: a character
-* Return vallue - will be @s
+* Return: s
 */
 char *_memset(char *s, char b, unsigned int n)
 {
