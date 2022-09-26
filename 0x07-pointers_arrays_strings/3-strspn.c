@@ -3,11 +3,11 @@
 /**
 * _strspn -  a function that gets the length of a prefix substring
 * @s: a character
-@accept: a character
+* @accept: a character
 * byte: an integer
 * Return: byte
 */
-unsigned int _strspn(char *s, char *accept);
+unsigned int _strspn(char *s, char *accept)
 {
 	unsigned int byte;
 	int i;
