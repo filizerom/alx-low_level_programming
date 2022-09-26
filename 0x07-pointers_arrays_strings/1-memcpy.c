@@ -5,9 +5,9 @@
 * @n: unsigned integer
 * @src: a character
 * @dest: a character
-* Return - be dest wiil be
+* Return: dest
 */
-char *_memcpy(char *dest, char *src, unsigned int n);
+char *_memcpy(char *dest, char *src, unsigned int n)
 {
 	unsigned int i;
 
