@@ -2,10 +2,10 @@
 #include <string.h>
 
 /**
-* strstr - a function that locates a substring.
-* haystack - a function that locates a substring.
-* @haystick: a character
+* _strstr - a function that locates a substring.
+* @haystack: a character
 * @needle: a character
+* Return: NULL
 */
 char *_strstr(char *haystack, char *needle)
 {
