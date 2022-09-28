@@ -34,5 +34,5 @@ int is_palindrome(char *s)
 {
 	int j;
 	j = palindm1(s, 0);
-	return (palindm2(s, j);
+	return (palindm2(s, j));
 }
