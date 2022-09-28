@@ -1,6 +1,6 @@
 #include "main.h"
 /**
-* _pow_recursion - function that returns the value 
+* _pow_recursion - function that returns the value
 * @x: a character
 * @y: a character
 * Return: -1
