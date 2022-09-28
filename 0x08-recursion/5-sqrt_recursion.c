@@ -8,7 +8,7 @@
 int sqrt2(int i, int j)
 {
 	if (j * j == i)
-		return (j)
+		return (j);
 	if (j == i / 2)
 		return (-1);
 	return (sqrt2(i, j + 1));
@@ -21,11 +21,11 @@ int sqrt2(int i, int j)
 */
 int _sqrt_recursion(int n)
 {
-	int root = 0;
+	int j = 0;
 
 	if (n < 0)
 		return (-1);
 	if (n == 1)
 		return (1);
-	return (find_sqrt(n, root));
+	return (sqrt2(n, root));
 }
