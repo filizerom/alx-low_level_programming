@@ -10,5 +10,6 @@ int _pow_recursion(int x, int y);
 int sqrt2(int i, int j);
 int _sqrt_recursion(int n);
 int is_prime_number(int n);
+int is_prime_number1(int a, int b);
 
 #endif
