@@ -11,7 +11,7 @@ int is_prime_number1(int a, int b)
 		return (1);
 	else if (a % b == 0)
 		return (0);
-	return (prime2(a, b + 1));
+	return (is_prime_number1(a, b + 1));
 
 }
 
