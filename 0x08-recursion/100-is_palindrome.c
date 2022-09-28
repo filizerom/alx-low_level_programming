@@ -27,12 +27,13 @@ int palindm2(char *i, int j)
 }
 
 /**
-* is_palindrome - function that returns 1 if a string is a palindrome and 0 if not
+* is_palindrome - function that returns
 * Return: zero
 */
 int is_palindrome(char *s)
 {
 	int j;
+
 	j = palindm1(s, 0);
 	return (palindm2(s, j));
 }
