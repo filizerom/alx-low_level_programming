@@ -6,9 +6,10 @@
 * Return:zero
 */
 int sqrt2(int i, int j)
+{
 	if (j * j == i)
 		return (j)
-	else if (j * j > i)
+	if (j == i / 2)
 		return (-1);
 	return (sqrt2(i, j + 1));
 }
