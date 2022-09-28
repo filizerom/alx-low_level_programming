@@ -28,6 +28,7 @@ int palindm2(char *i, int j)
 
 /**
 * is_palindrome - function that returns
+* @s: a character
 * Return: zero
 */
 int is_palindrome(char *s)
