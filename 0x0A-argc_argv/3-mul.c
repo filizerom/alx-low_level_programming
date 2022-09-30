@@ -1,4 +1,6 @@
 #include "main.h"
+#include <stdio.h>
+#include <stdlib.h>
 
 /**
 * main - a function
@@ -20,4 +22,6 @@ int main(int argc, char *argv[])
 	{
 		printf("Error\n");
 		return (1);
+	}
+	return (0);
 }
