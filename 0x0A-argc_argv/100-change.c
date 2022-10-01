@@ -21,20 +21,26 @@ int main(int argc, char *argv[])
 	{
 		b++;
 		if ((a - 25) >= 0)
+		{
 			a -= 25;
 			continue;
-
+		}
 		if ((a - 10) >= 0)
+		{
 			a -= 10;
 			continue;
-
+		}
 		if ((a - 5) >= 0)
+		{
 			a -= 5;
+		}
 			continue;
 
 		if ((a - 2) >= 0)
+		{
 			a -= 2;
 			continue;
+		}
 		a--;
 	}
 
