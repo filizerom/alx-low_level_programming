@@ -8,10 +8,12 @@
 int main(int argc, char *argv[])
 {
 	int a, b = 0;
-	
+
 	if (argc != 2)
-	    printf("Error\n");
-	return (1);
+	{
+		printf("Error\n");
+		return (1);
+	}
 
 	a = atoi(argv[1]);
 
@@ -21,7 +23,7 @@ int main(int argc, char *argv[])
 		if ((a - 25) >= 0)
 			a -= 25;
 			continue;
-	
+
 		if ((a - 10) >= 0)
 			a -= 10;
 			continue;
@@ -30,7 +32,7 @@ int main(int argc, char *argv[])
 			a -= 5;
 			continue;
 
-		if ((a -2) >= 0)
+		if ((a - 2) >= 0)
 			a -= 2;
 			continue;
 		a--;
