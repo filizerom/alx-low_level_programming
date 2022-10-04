@@ -3,7 +3,7 @@
 #include <stdio.h>
 /**
 * alloc_grid -  a function that returns a pointer
-*@width- an integer
+*@width - an integer
 *@height - an integer
 *Return: NULL
 */
