@@ -3,8 +3,8 @@
 #include <stdio.h>
 /**
 * alloc_grid -  a function that returns a pointer
-*@width - an integer
-*@height - an integer
+*@width: - an integer
+*@height: - an integer
 *Return: NULL
 */
 int **alloc_grid(int width, int height)
