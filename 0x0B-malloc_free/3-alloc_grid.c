@@ -2,8 +2,8 @@
 #include <stdlib.h>
 #include <stdio.h>
 /**
-* free_grid - function that frees a 2 dimensional grid previously created
-* @grid - an integer
+* alloc_grid -  a function that returns a pointer 
+* @width- an integer
 * @height - an integer
 * Return: NULL
 */
