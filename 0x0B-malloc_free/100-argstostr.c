@@ -19,7 +19,7 @@ char *argstostr(int ac, char **av)
 	{
 		while (av[j][k])
 		{
-			i++
+			i++;
 			k++;
 		}
 		k = 0;
