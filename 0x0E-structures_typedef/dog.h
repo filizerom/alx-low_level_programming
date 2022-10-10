@@ -5,7 +5,7 @@
 * struct dog - new type
 * @name: the name
 * @age: the age
-* @owner the owner of the dog
+* @owner: the owner of the dog
 */
 struct dog
 {
