@@ -9,20 +9,17 @@
 */
 unsigned int binary_to_uint(const char *b)
 {
-	unsigned int nu = 0, mul = 1;
 	int len;
+	unsigned int nu = 0;
 
-	if (b == '\0')
+	if (!b)
 		return (0);
 
 	for (len = 0; b[len]; len++)
-
-	for (len -= 1; len >= 0; len--)
 	{
-		if (b[len] != '0' && b[len] != '1')
+		if (b[len] < '0' || b[len] > '1')
 			return (0);
-		nu += (b[len] - '0') * mul;
-		mul *= 2;
+		nu = 2 * nu + (b[len] - '0');
 
 	}
 	return (nu);
