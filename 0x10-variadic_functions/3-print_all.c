@@ -16,7 +16,7 @@ void print_char(va_list arg)
 {
 	char l;
 
-	l =  va_arg(arg, int);
+	l = va_arg(arg, int);
 	printf("%c", l);
 }
 /**
@@ -79,10 +79,10 @@ void print_all(const char * const format, ...)
 	while (format && (*(format + i)))
 	{
 		j = 0;
-	
+
 		while (j < 4 && (*(format + i) != *(funcs[j].symbol)))
 			j++;
-	
+
 		if (j < 4)
 		{
 			printf("%s", separator);
